@@ -100,7 +100,7 @@ header-img: "img/post-bg-rwd.jpg"
 <!-- Gitalk 评论 start  -->
 {% if site.gitalk.enable %}
 <!-- Gitalk link  -->
-<link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<!-- <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
 <script src="https://unpkg.com/gitalk@latest/dist/gitalk.min.js"></script>
 
 <div id="gitalk-container"></div>
@@ -111,11 +111,11 @@ header-img: "img/post-bg-rwd.jpg"
     repo: '{{site.gitalk.repo}}',
     owner: '{{site.gitalk.owner}}',
     admin: ['{{site.gitalk.admin}}'],
-    distractionFreeMode: {{site.gitalk.distractionFreeMode}},
+    distractionFreeMode: '{{site.gitalk.distractionFreeMode}}',
     id: 'about',
     });
     gitalk.render('gitalk-container');
-</script>
+</script> -->
 {% endif %}
 <!-- Gitalk end -->
 
