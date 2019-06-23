@@ -3,8 +3,8 @@ layout: post
 title: Promise And EventLoop
 subtitle: Promise学习笔记
 date: 2019-05-29
-author: BY
-header-img: img/post-bg-cook.jpg
+author: Hukui
+# header-img: img/post-bg-cook.jpg
 catalog: true
 tags:
   - JavaScript
